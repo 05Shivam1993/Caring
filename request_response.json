@@ -1,0 +1,19 @@
+BASE URL :- https://127.0.0.1:8000/
+method: POST
+ENDPOINT : uploadfile
+
+JSON REQUEST :
+{
+    "dataset_name": "New_Dataset",
+    "dataset_description":"Short_Description",
+    "file": "shivam3.dcm",
+    "project_name": "inference_project",
+    "project_description":"inference_project_description",
+    "modality":"DX"
+
+}
+
+JSON REPONSE :
+{
+    "message": "File Uploaded Successfully"
+}
